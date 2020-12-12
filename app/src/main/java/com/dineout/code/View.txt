@@ -1,0 +1,1 @@
+According to Android Studio Project Structure UI / View files are stored in the Layout folder (src > main > res > layout).

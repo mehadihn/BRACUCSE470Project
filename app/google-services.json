@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "218300001266",
+    "firebase_url": "https://restaurant-5409a.firebaseio.com",
+    "project_id": "restaurant-5409a",
+    "storage_bucket": "restaurant-5409a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218300001266:android:45d7052c52a7bc4d03596b",
+        "android_client_info": {
+          "package_name": "com.dineout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218300001266-g5dhriaiugcb3kvjpnagmgm8kquabqgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6E8UdFLMoAEPWHOtp5vpZhqwjb5eiTaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218300001266-g5dhriaiugcb3kvjpnagmgm8kquabqgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
