@@ -62,7 +62,7 @@ public class confirmOrder extends AppCompatDialogFragment {
                         for(DataSnapshot dsCart: dataSnapshot.getChildren())
                         {
                             //snapshot object's data saved in variables
-                            cart c = dsCart.getValue(cart.class);
+                            Cart c = dsCart.getValue(Cart.class);
                             servingSize = c.getQuantity();
                             dishName = c.getAddedname();
                         }

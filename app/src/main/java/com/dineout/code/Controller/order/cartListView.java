@@ -22,7 +22,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import com.dineout.code.Model.order.cart;
+import com.dineout.code.Model.order.Cart;
 import com.dineout.code.Model.order.Menu;
 import com.dineout.code.Model.order.confirmOrder;
 import com.dineout.code.Model.order.MenuItem;
@@ -32,7 +32,7 @@ public class cartListView extends AppCompatActivity {
 
     String dummy=null;
 
-    ArrayList<cart> cartItems=new ArrayList<cart>();
+    ArrayList<Cart> cartItems=new ArrayList<Cart>();
     ArrayList<Menu>dishDetails=new ArrayList<Menu>();
     final CustomAdaptor cad=new CustomAdaptor();
     @Override
@@ -69,7 +69,7 @@ public class cartListView extends AppCompatActivity {
                 cartItems.clear();
                 for(DataSnapshot child:dataSnapshot.getChildren())
                 {
-                    cart obj = child.getValue(cart.class);
+                    Cart obj = child.getValue(Cart.class);
                     cartItems.add(obj);
                     dummy=obj.getAddedname();
                     System.out.print(obj.getQuantity());
@@ -146,7 +146,7 @@ public class cartListView extends AppCompatActivity {
 
                             for (DataSnapshot childSnapShot : dataSnapshot.getChildren()) {
 
-                                final cart dummy=childSnapShot.getValue(cart.class);
+                                final Cart dummy=childSnapShot.getValue(Cart.class);
                                 if(dummy.getAddedname().equals(dishClicked))
                                 {
                                     final String key = childSnapShot.getKey();

@@ -25,7 +25,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import com.dineout.code.Model.order.cart;
+import com.dineout.code.Model.order.Cart;
 import com.dineout.code.Model.order.MenuItem;
 import com.dineout.code.Model.order.Item;
 import com.dineout.code.Model.order.NotificationClass;
@@ -155,7 +155,7 @@ public class setQuantity extends AppCompatActivity {
     }
 
     private void writeNewItemEntry( String itemname, int q){    // func adding dish in  cart on firebase
-        cart entry = new cart(itemname, q);
+        Cart entry = new Cart(itemname, q);
         FirebaseDatabase.getInstance().getReference().child("cart").push().setValue(entry);
     }
 
