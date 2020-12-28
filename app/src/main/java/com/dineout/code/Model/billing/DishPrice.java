@@ -11,6 +11,14 @@ public class DishPrice implements Serializable {
     public DishPrice() {
     }
 
+    public DishPrice(String dishname, String price, String estimatedtime, String typeofdish) {
+
+        this.dishName = dishname;
+        this.price = price;
+        this.estimatedTime = estimatedtime;
+        this.type = typeofdish;
+    }
+
     public String getDishname() {
         return dishName;
     }
@@ -43,11 +51,5 @@ public class DishPrice implements Serializable {
         this.type = typeofdish;
     }
 
-    public DishPrice(String dishname, String price, String estimatedtime, String typeofdish) {
 
-        this.dishName = dishname;
-        this.price = price;
-        this.estimatedTime = estimatedtime;
-        this.type = typeofdish;
-    }
 }

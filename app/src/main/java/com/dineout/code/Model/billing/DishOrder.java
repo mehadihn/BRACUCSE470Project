@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class DishOrder extends DishPrice implements Serializable {
     public int quantity;
+    public String price;
 
     public DishOrder() {
         quantity = 0;
@@ -12,6 +13,11 @@ public class DishOrder extends DishPrice implements Serializable {
 
     public DishOrder(int quantity) {
         this.quantity = quantity;
+    }
+
+    public DishOrder(int quantity, String price) {
+        this.quantity = quantity;
+        this.price = price;
     }
 
     public DishOrder(String dishname, String price, String estimatedtime, String typeofdish, int quantity) {
