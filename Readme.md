@@ -2,7 +2,7 @@
 
 ## Project Name: Automated Restaurant Management System
 
-**Mehadi Hassan  || 17101177  || 04**
+### **Mehadi Hassan  || 17101177  || 04**
 
 ## MVC Pattern & Unit Testing Directories:
 **Model:** [Click Here](https://github.com/mehadihn/BRACUCSE470Project/tree/master/app/src/main/java/com/dineout/code/Model)
