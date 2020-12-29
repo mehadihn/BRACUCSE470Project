@@ -2,8 +2,8 @@
 
 ## Project Name: Automated Restaurant Management System
 
-**Name: Mehadi Hassan**
-**ID: 17101177**
+**Name: Mehadi Hassan**<br>
+**ID: 17101177**<br>
 **Sec: 04**
 
 ## MVC Pattern & Unit Testing Directories:
